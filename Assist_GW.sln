@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assist_GW", "AssistCargoRC_GW\Assist_GW.csproj", "{EA8F0464-D309-460A-935C-83FBED302C99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7CE23A5C-ABA9-4F51-980D-FA4E6B5F3F50} = {7CE23A5C-ABA9-4F51-980D-FA4E6B5F3F50}
+		{BA864D85-482F-4E78-A8BC-7F1B0851EE5A} = {BA864D85-482F-4E78-A8BC-7F1B0851EE5A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assist_GW.BLL", "AssistCargoRC_GW.BLL\Assist_GW.BLL.csproj", "{7CE23A5C-ABA9-4F51-980D-FA4E6B5F3F50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5305C03-F8C1-4AA3-BD52-6C672C77C790} = {C5305C03-F8C1-4AA3-BD52-6C672C77C790}
+		{BA864D85-482F-4E78-A8BC-7F1B0851EE5A} = {BA864D85-482F-4E78-A8BC-7F1B0851EE5A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assist_GW.DAL", "AssistCargoRC_GW.DAL\Assist_GW.DAL.csproj", "{C5305C03-F8C1-4AA3-BD52-6C672C77C790}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA864D85-482F-4E78-A8BC-7F1B0851EE5A} = {BA864D85-482F-4E78-A8BC-7F1B0851EE5A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assist_GW.DTO", "AssistCargoRC_GW.DTO\Assist_GW.DTO.csproj", "{BA864D85-482F-4E78-A8BC-7F1B0851EE5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DD0EDC5-6BE4-4AEB-83B0-484CC6CFEE4B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA8F0464-D309-460A-935C-83FBED302C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8F0464-D309-460A-935C-83FBED302C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8F0464-D309-460A-935C-83FBED302C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8F0464-D309-460A-935C-83FBED302C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE23A5C-ABA9-4F51-980D-FA4E6B5F3F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE23A5C-ABA9-4F51-980D-FA4E6B5F3F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE23A5C-ABA9-4F51-980D-FA4E6B5F3F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE23A5C-ABA9-4F51-980D-FA4E6B5F3F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5305C03-F8C1-4AA3-BD52-6C672C77C790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5305C03-F8C1-4AA3-BD52-6C672C77C790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5305C03-F8C1-4AA3-BD52-6C672C77C790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5305C03-F8C1-4AA3-BD52-6C672C77C790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA864D85-482F-4E78-A8BC-7F1B0851EE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA864D85-482F-4E78-A8BC-7F1B0851EE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA864D85-482F-4E78-A8BC-7F1B0851EE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA864D85-482F-4E78-A8BC-7F1B0851EE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB703E49-DB14-453A-8EE6-B52871F265AF}
+	EndGlobalSection
+EndGlobal
